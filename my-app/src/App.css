@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.header-button {
+  color: blue;
+  padding: 100px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.container {
+  padding: 40px;
+}
+
+.banner-image {
+  align-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.homepage-text {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.travel-guide {
+  text-align: left;
+}
+
+.card-image {
+  height: 300px;
+  width: 500px;
+  padding-bottom: 10px;
+  align-content: center;
+}
+
+.card-title {
+  font-size: 40px;
+}
+
+.travel-guide-text {
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 60px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
