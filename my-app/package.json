@@ -1,8 +1,10 @@
 {
   "name": "my-app",
+  "homepage": "http://students.washington.edu/ps-7-TheaTai",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "bootstrap": "^4.1.3",
     "d3": "^5.7.0",
     "react": "^16.6.3",
@@ -13,6 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "npm run build&&gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
