@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ps-7-TheaTai/precache-manifest.17b27ed760e973faa2f71bd559946bae.js"
+  "/thea330/ps-7-TheaTai/precache-manifest.d3084896897a07a84f9dcec6879cf0d2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ps-7-TheaTai/index.html", {
+workbox.routing.registerNavigationRoute("/thea330/ps-7-TheaTai/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
