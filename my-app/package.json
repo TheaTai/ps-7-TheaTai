@@ -1,12 +1,12 @@
 {
   "name": "my-app",
-  "homepage": "http://students.washington.edu/ps-7-TheaTai",
+  "homepage": "http://students.washington.edu/thea330/ps-7-TheaTai",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^1.1.0",
     "bootstrap": "^4.1.3",
     "d3": "^5.7.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1",
